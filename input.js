@@ -14,7 +14,7 @@ const setupInput = function (conn) {
 
 const handleUserInput = function(key) {
 
-  if (key === '\u0003' || key === 'p') {
+  if (key === 'p') {
     process.exit();
   };
   if (key === 'w') {
